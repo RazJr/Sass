@@ -1,0 +1,115 @@
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+.slider {
+  width: 100vw;
+  background: black;
+  height: 100vh;
+  margin: auto;
+  overflow: hidden;
+  display: flex;
+}
+
+.pelota {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  background: red;
+  animation: slide 1s linear infinite alternate;
+  position: relative;
+  transform: translate(2px, 552px);
+  display: flex;
+}
+
+@keyframes slide {
+  0% {
+    margin-left: 0%;
+    background: red;
+  }
+  5% {
+    margin-top: -40%;
+    background: rebeccapurple;
+  }
+  5% {
+    margin-left: 10%;
+    background: rosybrown;
+  }
+  10% {
+    margin-top: 0%;
+    background: salmon;
+  }
+  10% {
+    margin-left: 15%;
+    background: violet;
+  }
+  15% {
+    margin-top: -30%;
+    background: white;
+  }
+  15% {
+    margin-left: 20%;
+    background: yellowgreen;
+  }
+  20% {
+    margin-top: 0%;
+    background: plum;
+  }
+  20% {
+    margin-left: 25%;
+    background: orchid;
+  }
+  25% {
+    margin-top: -25%;
+    background: orange;
+  }
+  25% {
+    margin-left: 30%;
+    background: #8dc722;
+  }
+  30% {
+    margin-top: 0%;
+    background: #490b20;
+  }
+  30% {
+    margin-left: 35%;
+    background: #518640;
+  }
+  35% {
+    margin-top: -40%;
+    background: #12657e;
+  }
+  35% {
+    margin-left: 40%;
+    background: #2f1c4d;
+  }
+  40% {
+    margin-top: 0%;
+    background: #290a3b;
+  }
+  40% {
+    margin-left: 45%;
+    background: #af043d;
+  }
+  45% {
+    margin-top: -15%;
+    background: #daa971;
+  }
+  45% {
+    margin-left: 50%;
+    background: #6783a8;
+  }
+  50% {
+    margin-top: 0%;
+    background: #070c5f;
+  }
+  50% {
+    margin-left: 55%;
+    background: #1d5e27;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
