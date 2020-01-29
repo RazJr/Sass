@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+
 body{
     margin: 0;
     padding: 0;
@@ -19,6 +21,7 @@ ul li{
     list-style:none ;
     margin: 0 20px;
     height: 10vh;
+    font-family: 'Dancing Script', cursive;
 }
 
 ul li a{
