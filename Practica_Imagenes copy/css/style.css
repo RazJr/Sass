@@ -20,13 +20,32 @@ body {
   justify-content: space-around;
 }
 
-img {
+.contenedor > .row > div {
   width: 15vw;
   height: 20vh;
+  border: 2px solid #000000;
+  position: relative;
+}
+
+img {
+  width: 100%;
+  height: 100%;
   display: block;
   border: 2px solid #ffffff;
-  opacity: 0.3;
+  opacity: 1;
   transition: 1s;
+}
+
+.contenedor > .row > div > span {
+  display: block;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  visibility: hidden;
 }
 
 img::after {
@@ -39,9 +58,13 @@ img::after {
   background: white;
 }
 
-img:hover {
-  opacity: 1;
+.contenedor > .row > div:hover > img {
+  opacity: 0.3;
   transition: 0.8s;
+}
+
+.contenedor > .row > div:hover > span {
+  visibility: visible;
 }
 
 /*# sourceMappingURL=style.css.map */
